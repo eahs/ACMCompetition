@@ -1,0 +1,13 @@
+package org.eastonsd; 
+
+import java.time.*;
+import java.util.*;
+
+public class Pacer
+{
+    public static void main(String[] args)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Prompt");
+    }
+}

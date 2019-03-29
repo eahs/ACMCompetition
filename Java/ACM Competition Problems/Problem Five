@@ -1,0 +1,11 @@
+import java.time.*;
+import java.util.*;
+
+public class ProblemFive
+{
+    public static void main(String[] args)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Prompt");
+    }
+}

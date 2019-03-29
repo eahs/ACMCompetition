@@ -1,9 +1,7 @@
-package org.eastonsd; 
-
 import java.time.*;
 import java.util.*;
 
-public class Pacer
+public class ProblemOne
 {
     public static void main(String[] args)
     {

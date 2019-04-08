@@ -5,7 +5,6 @@ import java.util.stream.IntStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static javafx.application.Platform.exit;
 
 public class ACM
 {
@@ -197,7 +196,6 @@ public class ACM
         if (((primeList == null) || (n > maxPrime))) {
             System.out.println("You must call ACM.GeneratePrimes(n) for the highest n you expect to need to check at least once befor" +
                     "e using this method.");
-            exit();
         }
 
         while (n > 1) {
@@ -223,7 +221,6 @@ public class ACM
         if (((primeList == null) || (n > maxPrime))) {
             System.out.println("You must call ACM.GeneratePrimes(n) for the highest n you expect to need to check at least once befor" +
                     "e using this method.");
-            exit();
 
         }
 

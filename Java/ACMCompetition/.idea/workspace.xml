@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="553cc42e-aeb9-46fc-b864-bdedc48e19f1" name="Default Changelist" comment="" />
+    <list default="true" id="553cc42e-aeb9-46fc-b864-bdedc48e19f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +31,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ACM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="523" lean-forward="true" selection-start-line="523" selection-end-line="523" />
+            <state relative-caret-position="159">
+              <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#16324#16325#0" expanded="true" />
                 <element signature="e#16377#16378#0" expanded="true" />
               </folding>
@@ -40,6 +43,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exit</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -100,7 +108,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554487283424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554726695176" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -297,9 +305,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ACM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="523" lean-forward="true" selection-start-line="523" selection-end-line="523" />
+        <state relative-caret-position="159">
+          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#16324#16325#0" expanded="true" />
             <element signature="e#16377#16378#0" expanded="true" />
           </folding>

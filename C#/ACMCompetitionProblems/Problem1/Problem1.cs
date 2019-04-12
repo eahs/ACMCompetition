@@ -11,8 +11,16 @@ namespace ACMCompetition
     {
         static void Main(string[] args)
         {
-            Console.Write("Prompt");
-            string input = Console.ReadLine();
+            Console.Write("Enter a 3-digit number: ");
+            //List<int> nums = Console.ReadLine().ToInteger().ToIntegerList();
+            List<int> nums = Console.ReadLine().PadLeft(3, '0').ToCharArray().Select(n => Convert.ToInt32(n + "")).ToList();
+         
+            nums.Sort();
+            int x = nums[0] * 100 + nums[1] * 10 + nums[2];
+            int y = nums[2] * 100 + nums[1] * 10 + nums[0];
+            int z = nums[1] * 100 + nums[1] * 10 + nums[1];
+
+            Console.WriteLine("Good luck: {0}", x + y - z);
         }
     }
 }

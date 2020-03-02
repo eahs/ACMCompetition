@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EAHS.ACM" Version="1.0.7" />
+    <PackageReference Include="EAHS.ACM20" Version="1.0.7" />
   </ItemGroup>
 
 </Project>
